@@ -14,24 +14,32 @@ import pic from "../assets/yuvraj.png";
 function Home() {
   return (
     <>
-      <div className="max-w-screen-2xl container mx auto px-4 md:px-20 my-20">
+      <div
+        name="Home"
+        className="container px-4 my-20 max-w-screen-2xl mx auto md:px-20"
+      >
         <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
+          <div className="order-2 mt-12 space-y-2 md:w-1/2 md:mt-24 md:order-1">
             <span className="text-xl"> Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text 4xl">
               <h1>Hello, I'm a</h1>
-              {/* <span className="text-red-700 font-bold">Developer</span> */}
+              {/* <span className="font-bold text-red-700">Developer</span> */}
               <ReactTyped
-               className="text-red-700 font-bold first-letter:uppercase"
-                strings={["developer", "designer", "freelancer" ,"coder","programmer"]}
+                className="font-bold text-red-700 first-letter:uppercase"
+                strings={[
+                  "developer",
+                  "designer",
+                  "freelancer",
+                  "coder",
+                  "programmer",
+                ]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
-              
               />
             </div>
             <br />
-            <p className="text-sm md:text-md text-justify">
+            <p className="text-sm text-justify md:text-md">
               Yuvraj Kumar is a dedicated Full Stack Software Developer with
               expertise in HTML, CSS, JavaScript, React.js, Node.js, Express.js,
               MongoDB, PHP, WordPress, and SEO. He is currently preparing for a
@@ -42,21 +50,30 @@ function Home() {
             </p>
             <br />
             {/* socail media icons */}
-            <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
+            <div className="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0">
               <div className="space-y-2">
-                <h1 className="font-bold">Availble on</h1>
+                <h1 className="font-bold text-center">Availble on</h1>
                 <ul className="flex space-x-5 ">
                   <li>
-                    {""} <SiFacebook className="text-2xl cursor-pointer" />
+                    <a href="https://www.facebook.com/" target="_blank">
+                      {""} <SiFacebook className="text-2xl cursor-pointer" />
+                    </a>
                   </li>
                   <li>
-                    {""} <SiInstagram className="text-2xl cursor-pointer" />
+                    <a href="https://www.instagram.com/" target="_blank">
+                      {""} <SiInstagram className="text-2xl cursor-pointer" />
+                    </a>
                   </li>
                   <li>
-                    {""} <MdMarkEmailRead className="text-2xl cursor-pointer" />
+                    <a href="https://www.youtube.com/" target="_blank">
+                      {""}{" "}
+                      <MdMarkEmailRead className="text-2xl cursor-pointer" />
+                    </a>
                   </li>
                   <li>
-                    {""} <BsLinkedin className="text-2xl cursor-pointer" />
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      {""} <BsLinkedin className="text-2xl cursor-pointer" />
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -83,9 +100,12 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-20 order-1 mt-5 ">
+          <div className="order-1 mt-5 md:w-1/2 md:ml-48 md:mt-20 ">
             <img
-              src={pic} className='rounded-full md:w-[450px] md:h-[450px]' alt="profile-alternative profile" />
+              src={pic}
+              className="rounded-full md:w-[450px] md:h-[450px]"
+              alt="profile-alternative profile"
+            />
           </div>
         </div>
       </div>
