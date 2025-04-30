@@ -1,5 +1,5 @@
 const enrollmentId = 2202030400212
-let enrollmentEmail = "yuvrajkumar4588@gmail.com"   
+let enrollmentEmail = "yuvrajkumar4588@gmail.com"
 var enrollmentPassword = "yuvi123@123"
 enrollmentCity = "Ahmedabad"
 
