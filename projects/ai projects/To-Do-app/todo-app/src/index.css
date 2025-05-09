@@ -1,0 +1,17 @@
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom optional styles (you can modify or add more below) */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+  outline: none;
+}

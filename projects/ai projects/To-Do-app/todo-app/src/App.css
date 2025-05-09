@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.todo-form input {
+  padding: 10px;
+  width: 60%;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
