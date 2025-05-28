@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: white;
+}
+header {
+  background: #2c1d13;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff8e1;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+.text {
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff8e1;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffc107;
+}
+
+.hero {
+  background: url(https://preview.colorlib.com/theme/coffee/img/header-bg.jpg)
+    no repeat center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #000;
+}
+.hero-text p {
+  font-size: 20px;
+  text-shadow: 1px 1px 3px #000;
+}
