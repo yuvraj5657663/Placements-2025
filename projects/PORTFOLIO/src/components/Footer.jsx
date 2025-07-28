@@ -20,7 +20,7 @@ function Footer() {
               <FaLinkedinIn size={24} />
                       </div>
                       <div className='flex flex-col items-center pt-8 mt-8 border-t border-gray-700'>
-                          <p className='text-sm'>&copy; 2024 your comapany. all right reserved.</p>
+                          <p className='text-sm'>&copy; 2025 your comapany. all right reserved.</p>
                           <p className='text-sm'>Supportive partner Yuvraj kumar</p>
                           <hr />
                       </div>
